@@ -1,0 +1,18 @@
+/*!
+ * Start Bootstrap - Business Frontpage (https://startbootstrap.com/templates/business-frontpage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.titulo1{
+  font-family: sans-serif;
+}
+
+
+.textoEncabezado{
+  font-family: monospace;
+  color: aliceblue;
+}
