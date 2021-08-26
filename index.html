@@ -96,29 +96,13 @@
             <p class="m-0 text-center text-white">Copyright &copy; Grupo-8 2021</p>
         </div>
     </footer>
-    <style>
-        .footer-responsive {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .audio-radio {
-            width: 30%;
-        }
-
-        @media only screen and (max-width:767px) {
-            .footer-responsive {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .audio-radio {
-                width: 60%;
-            }
-        }
-    </style>
+    <script src="src/js/indexJs.js"></script>
+    <script>
+        const vaca = new simplex(10,20);
+        vaca.datos();
+        vaca.simplex();
+        vaca.resultados();        
+    </script>
 </body>
 
 </html>
