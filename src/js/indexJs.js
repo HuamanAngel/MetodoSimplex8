@@ -152,23 +152,25 @@ class simplex {
     }
   }
   resultados() {
+    var classVarDom = $("#div_resolution").find(".solution_val_1");
+    for (let indexC = 0; indexC < classVarDom.length; indexC++) {
+      classVarDom[indexC].textContent = `X${indexC+1}=0`;
+    }
     let i = new Number();
     let j = new Number();
     if (this.error == false) {
       for (i = 1; i <= this.nv; i++) {
         for (j = 2; j <= parseInt(this.nr) + parseInt(1); j++) {
+          console.log(this.t[j][1]);
           if (this.t[j][0] == 1 * i) {
-            var mandalin = $("#div_resolution").find(".solution_val_1");
-            mandalin[i - 1].textContent = `X${i}=${this.t[j][1]}`;
+            classVarDom[i - 1].textContent = `X${i}=${this.t[j][1]}`;
           }
         }
-
       }
-
       $("#solution_val_total").text(`Funcion objetivo: ${this.t[1][1]}`);
     }
-    else
+    else{
       $("#div_resolution").html("No hay solucion");
+    }
   }
-
 }
