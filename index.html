@@ -51,7 +51,7 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12">
                         <h1 class="display-4 text-white mt-5 mb-2 titulo1">Metodo Simplex</h1>
-                        <p class="lead mb-5 text-white-50 textoEncabezado">"Un político puede querer determinar dónde
+                        <p class="lead mb-5 text-white-50 textoEncabezado">Caso: "Un político puede querer determinar dónde
                             gastar el dinero
                             en publicidad de campaña para maximizar
                             las posibilidades de ganar una elección."
@@ -87,20 +87,20 @@
                             </div>
                         </div>
                     </div>
-                    <h4 class="pt-4 pb-4">Funcion objetivo : </h4>
+                    <h4 class="pt-4 pb-4">Función objetivo : </h4>
                     <div class="container">
                         <div style="display:flex" class="container d-flex justify-content-center">
                             <div style="width : 30%">
                                 <input type="number" required style="width: 50%;" name="" id="i_object_var1"><label
-                                    for="" style="display: inline;">x1+ </label>
+                                    for="" style="display: inline;"> x1+ </label>
                             </div>
                             <div style="width: 30%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_object_var2"><label
-                                    for="" style="display: inline;"></label>x2+
+                                    for="" style="display: inline;"></label> x2+
                             </div>
                             <div style="width: 30%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_object_var3"><label
-                                    for="" style="display: inline;"></label>x3
+                                    for="" style="display: inline;"></label> x3
                             </div>
                         </div>
                     </div>
@@ -112,15 +112,15 @@
                         <div style="display:flex" class="container d-flex justify-content-center">
                             <div style="width : 25%">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint1_var1"><label
-                                    for="" style="display: inline;">x1+</label>
+                                    for="" style="display: inline;"> x1+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint1_var2"><label
-                                    for="" style="display: inline;">x2+</label>
+                                    for="" style="display: inline;"> x2+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint1_var3"><label
-                                    for="" style="display: inline;">x3</label>
+                                    for="" style="display: inline;"> x3</label>
                             </div>
                             <div style="width: 25%;">
                                 <label for="" style="width: 50%;">&le;</label><input type="number" required
@@ -129,6 +129,7 @@
 
                         </div>
                     </div>
+                    <hr>
 
 
 
@@ -139,15 +140,15 @@
                         <div style="display:flex" class="container d-flex justify-content-center">
                             <div style="width : 25%">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint2_var1"><label
-                                    for="" style="display: inline;">x1+</label>
+                                    for="" style="display: inline;"> x1+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint2_var2"><label
-                                    for="" style="display: inline;">x2+</label>
+                                    for="" style="display: inline;"> x2+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint2_var3"><label
-                                    for="" style="display: inline;">x3</label>
+                                    for="" style="display: inline;"> x3</label>
                             </div>
                             <div style="width: 25%;">
                                 <label for="" style="width: 50%;">&le;</label><input type="number" required
@@ -156,7 +157,7 @@
 
                         </div>
                     </div>
-
+                    <hr>
 
 
 
@@ -165,15 +166,15 @@
                         <div style="display:flex" class="container d-flex justify-content-center">
                             <div style="width : 25%">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint3_var1"><label
-                                    for="" style="display: inline;">x1+</label>
+                                    for="" style="display: inline;"> x1+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint3_var2"><label
-                                    for="" style="display: inline;">x2+</label>
+                                    for="" style="display: inline;"> x2+</label>
                             </div>
                             <div style="width: 25%;">
                                 <input type="number" required style="width: 50%;" name="" id="i_constraint3_var3"><label
-                                    for="" style="display: inline;">x3</label>
+                                    for="" style="display: inline;"> x3</label>
                             </div>
                             <div style="width: 25%;">
                                 <label for="" style="width: 50%;">&le;</label><input type="number" required
@@ -182,13 +183,15 @@
 
                         </div>
                     </div>
+                    <hr>
                     <div style="display:flex" class="container d-flex justify-content-center pt-4">
                         <button id="get_resolution" class="btn btn-success" type="button">Resolver</button>
                     </div>
+
                 </form>
 
                 <div class="pt-4 ">
-                    <h2>Resolucion</h2>
+                    <h2>Resolución</h2>
                     <div class="border border-warning text-center bg-warning font-weight-bold"
                         style="font-size: 1.5em;" id="div_resolution" >
                         <label id="solution_val_total">Funcion objetivo : 0</label>
@@ -206,18 +209,24 @@
 
 
             <div class="col-md-4 mb-5">
-                <h2>Teoria</h2>
+                <h2 class="text-center">Teoría</h2>
                 <hr>
                 <address>
                     <strong>Metodo simplex</strong>
-                    <br>Sirve para esto y esto y el otro
-                    <br>
+                    <p>
+                        Es un método analítico capaz de resolver aquellos modelos que se vuelven complejos en el uso del método gráfico por el número de variables empleadas, Permite ir mejorando la solución en cada paso.
+
+                        El proceso de este método concluye cuando no es posible continuar mejorando dicho valor, es decir, se ha alcanzado la solución óptima (el mayor o menor valor posible) según el caso, para el que se satisfacen todas las restricciones.
+                    </p>
                 </address>
                 <address>
 
-                    <strong>¿Asi funciona?</strong>
-                    <br>El funcionamiento se da para esto
-                    <br>
+                    <strong>¿Por qué es tan usado?</strong>
+                    <p>
+                        SIMPLEX permite a las empresas solucionar aquellos problemas donde necesiten optimizar sus recursos de la forma más eficaz y eficiente posible. Se aplica para dar solución a los problemas de programación lineal en los cuales suelen intervenir más de tres variables.
+
+                        Por lo tanto, se aplica para encontrar la mejor solución a esta clase problemas mediante procedimientos iterativos, donde se van desechando posibles soluciones o resultados no viables y, en cada paso, se realiza una evaluación de estudio para determinar si el resultado obtenido es óptimo o no.
+                    </p>
                 </address>
             </div>
         </div>
