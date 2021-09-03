@@ -70,9 +70,16 @@ body{
 }
 */
 
+#logo-texto{
+    color: white !important;
+}
 .carousel-item{
     width: 100% !important;
     height: 400px !important;
+}
+
+.textoEncabezado, .titulo1{
+    color: black !important;
 }
 
 .carousel-item::before{
@@ -135,11 +142,23 @@ body{
     font-size: 22px;
 }
 
+.navbar{
+    background-color: rgb(2, 129, 123) !important;
+    color: black !important;
+}
+
+footer{
+    background-color: rgb(2, 129, 123) !important;
+    color: white !important;
+}
+
 .footer-responsive {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: rgb(2, 129, 123) !important;
+    color: white !important;
 }
 
 .audio-radio {
